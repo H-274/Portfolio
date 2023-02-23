@@ -1,0 +1,55 @@
+.banner {
+    position: relative;
+}
+
+.banner img {
+    width: 100%;
+}
+
+.skills-block {
+    border-radius: .5rem;
+    height: 375px;
+    width: 275px;
+}
+
+#div-nom {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    display: grid;
+    grid-auto-columns: auto;
+    grid-auto-flow: column;
+    place-content: space-evenly;
+}
+
+#div-nom p {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 3rem;
+    font-weight: bolder;
+}
+
+#about-me {
+    height: 400px;
+    padding: 12px;
+}
+
+#about-me p {
+    display: inline;
+}
+
+#skills-container {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    display: grid;
+    grid-auto-columns: auto;
+    grid-auto-flow: column;
+    gap: 4rem;
+    overflow-x: scroll;
+    scrollbar-width: thin;
+}
+
+#skills-container div {
+    background-color: black;
+}

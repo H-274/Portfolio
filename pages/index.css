@@ -12,6 +12,20 @@
     width: 275px;
 }
 
+.experiences-container {
+    width: 100%;
+}
+
+.outer-node {
+    position: relative;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: orange;
+    border: 10px solid black;
+    margin-left: 50px;
+}
+
 #div-nom {
     position: absolute;
     width: 100%;
@@ -30,7 +44,7 @@
 }
 
 #about-me {
-    height: 400px;
+
     padding: 12px;
 }
 
